@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="preload  ">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="description" content="Description de mon site web dynamique">
+    <meta name="keywords" content="HTML, CSS, JavaScript, dynamique">
+    <meta name="author" content="dopavogui koikoi" >
+    <link rel="preconnect" href="https://example.com">
+    <link rel="dns-prefetch" href="https://example.com">
+    <link rel="preload" href="style.css" as="style">
+    <link rel="prefetch" href="scripts.js">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-XXXXX-Y');
+    </script>
+
+    <title>Learning HTML & JavaScript</title>
+</head>
+<body>
+    <header class="site-header">
+        <!-- logo du site -->
+         <div class="logo-container">
+            <a href="index.html">
+                <img src="/images/logo.jpg" alt="logo du site" class="site-logo">
+            </a>
+        </div>
+        <!-- menu de navigation -->
+         <nav class="main-navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+         </nav>
+         <!-- Barre de recherche -->
+          <form action="recherch.html" name="query" method="get" class="search-form">
+            <input type="text" name="" id="" class="search-input" placeholder="Search...">
+            <button type="submit" class="search-button">Search</button>
+        </form>
+    </header>
+</body>
+</html>
